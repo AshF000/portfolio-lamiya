@@ -27,7 +27,7 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject']) &
 
 	$mail->IsHTML(true); // Set email format to HTML
 
-	$mail->Subject = "(Elora) New Contact Info";
+	$mail->Subject = "(Lamiya) New Contact Info";
 	$mail->Body = $html;
 
 	$mail->SMTPOptions=array('ssl'=>array(
